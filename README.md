@@ -33,13 +33,11 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Descripción detallada del sistema
 
-El sistema musculoesquelético puede modelarse mediante una analogía eléctrica tipo RC, donde los elementos resistivos representan la oposición al movimiento y los capacitores modelan la capacidad de almacenamiento de energía en el tejido muscular.
+El sistema musculoesquelético puede representarse mediante una analogía eléctrica de tipo RC, en la cual los elementos resistivos modelan la oposición al movimiento, mientras que los capacitores describen la capacidad de almacenamiento de energía del tejido muscular.
 
-En este modelo, la señal de entrada corresponde a una fuerza aplicada F(t), la cual genera una respuesta dinámica asociada a la contracción muscular. La diferencia entre un individuo sano y un paciente con alteraciones musculares se refleja principalmente en el valor de la resistencia del sistema, lo que modifica la constante de tiempo y, por lo tanto, la velocidad de respuesta.
+Dentro de este enfoque, la señal de entrada corresponde a una fuerza aplicada 𝐹(𝑡), que induce una respuesta dinámica asociada al proceso de contracción muscular. Las diferencias entre un individuo sano y un paciente con alteraciones musculares se manifiestan principalmente en el valor de la resistencia equivalente del sistema, lo cual modifica la constante de tiempo y, en consecuencia, la velocidad de respuesta del modelo.
 
-El sistema presenta un comportamiento de primer orden, donde el caso patológico muestra una respuesta más lenta y amortiguada en comparación con el control. La implementación de un controlador PID permite compensar estas diferencias, logrando una respuesta más cercana al comportamiento fisiológico normal.
-
-Palabras clave: Músculo esquelético; Contracción muscular; Fuerza (F(t)); Control neuromuscular; Respuesta dinámica.
+El sistema exhibe un comportamiento dinámico de primer orden, donde el caso patológico presenta una respuesta más lenta y con mayor amortiguamiento en comparación con el caso de control. La incorporación de un controlador PID permite compensar estas variaciones, logrando que la respuesta del sistema se aproxime al comportamiento fisiológico normal.
 
 ## Lista de archivos incluidos en el repositorio
 
